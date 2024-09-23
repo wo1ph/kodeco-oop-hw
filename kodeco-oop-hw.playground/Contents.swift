@@ -17,14 +17,6 @@ class Post {
     func incrementLikes() {
         likes += 1
     }
-    
-    func decrementLikes() {
-        if likes > 0 {
-            likes -= 1
-        } else {
-            likes = 0
-        }
-    }
 }
 
 let nbaPost = Post(author: "@NBA", content: "LeBron James has won his 5th NBA championship ring.")
@@ -37,3 +29,8 @@ for _ in 0..<50 {
     applePost.incrementLikes()
 }
 applePost.display()
+
+// Exercise 2
+class Product {
+    
+}
