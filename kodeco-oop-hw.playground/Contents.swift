@@ -1,8 +1,8 @@
 // Exercise 1
 
 class Post {
-    let author: String
-    let content: String
+    var author: String
+    var content: String
     var likes = 0
     
     init(author: String, content: String) {
